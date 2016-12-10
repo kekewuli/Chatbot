@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: yingqichatbot
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
-    CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
+    CONVERSATION_WORKSPACE_ID: 872d49bc-3515-4d1d-9f79-325e7933b43d
+    CAR_SERVICE_HOST: yingqichatbot.mybluemix.net
